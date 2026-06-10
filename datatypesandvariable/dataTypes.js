@@ -333,7 +333,8 @@ console.log(student);
 ====================================================
 
 Definition:
-Array of Objects is a collection of multiple objects.
+Array of Objects is a collection of multiple objects.    
+
 
 Most commonly used data structure in
 ReactJS, NodeJS, APIs, Databases, etc.

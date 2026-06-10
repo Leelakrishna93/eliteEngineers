@@ -87,7 +87,7 @@ var allows redeclaration.
 
 // ✅ Allowed
 var city = "Hyderabad";
-console.log(city); 
+console.log(city);
 var city = "Bangalore";
 
 console.log(city); // Bangalore
