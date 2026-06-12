@@ -1,9 +1,18 @@
 // Conditional Statements :
+
+// Definition:
+// Conditional Statements are used to make decisions in a program.
+// They allow different blocks of code to execute based on whether a condition is true or false.
+
 // CS are used to perform different actions based on different conditions.
 // CS works on the basis of true or false.
 
 
 // if statement :
+
+// Definition:
+// The if statement executes a block of code only when the specified condition evaluates to true.
+
 // if statement is used to execute a block of code if a specified condition is true.
 
 
@@ -15,34 +24,55 @@
 
 // if else statement :
 
+// Definition:
+// The if else statement is used when there are two possible outcomes.
+// If the condition is true, the if block executes; otherwise, the else block executes.
+
     // if(condition){
     //     // code to be executed when the condition returns true
     // }else{
     //     // code to be executed when the condition returns false
     // }
 
-// ternary operator :
-// The ternary operator is a shorthand way of writing an if-else statement.
 
+
+// ternary operator :
+
+// Definition:
+// The ternary operator is a short-hand version of the if else statement.
+// It evaluates a condition and returns one value if true and another value if false.
+
+// The ternary operator is a shorthand way of writing an if-else statement.
 
     // Syntax : condition ? true block code : false block code
 
 
+
 // else if statement :
 
-    // if(condition1){
-    //     // code to be executed if the condition1 is true
-    // }else if(condition2){
-    //     // code to be executed if the condition2 is true
-    // }else if(condition3){
-    //     // code to be executed if the condition3 is true
-    // }else{
-    //     // code to be executed if all the above conditions fails
-    // }
+// Definition:
+// The else if statement is used to check multiple conditions sequentially.
+// JavaScript executes the block of the first condition that evaluates to true.
+
+// if(condition1){
+//     // code to be executed if the condition1 is true
+// }else if(condition2){
+//     // code to be executed if the condition2 is true
+// }else if(condition3){
+//     // code to be executed if the condition3 is true
+// }else{
+//     // code to be executed if all the above conditions fails
+// }
+
+
 
 // switch statement :
 
-    // const userDesignation = "Manager";
+// Definition:
+// The switch statement is used to execute one block of code from multiple possible options
+// based on the value of an expression.
+
+// const userDesignation = "Manager";
 
 
     // switch(userDesignation){
@@ -67,7 +97,14 @@
     //         console.log("Welcome User");
     // }
 
+
+
 // nested Conditional statements :
+
+// Definition:
+// A Nested Conditional Statement is a conditional statement placed inside another
+// conditional statement. It is used when a second decision depends on the result
+// of the first decision.
 
 
     // const userRole = "Admin";
@@ -85,93 +122,25 @@
 
 
 
-if (true && true && false) {
 
-    console.log("Entered first nested block");
+    // Logical AND Operator (&&)
 
-    if (true || false || false) {
+// Definition:
+// Returns true only when all conditions are true.
+// If any condition is false, the result becomes false.
 
-        console.log("Inside first nested if block");
 
-    } else {
+// Logical OR Operator (||)
 
-        console.log("Inside first nested else block");
+// Definition:
+// Returns true if at least one condition is true.
+// Returns false only when all conditions are false.
 
-        if ((true && false) || true) {
 
-            console.log("Inside second-level nested if block");
+// Logical NOT Operator (!)
 
-            if ((false || true) && true) {
+// Definition:
+// Reverses the boolean value.
+// true becomes false and false becomes true.
 
-                console.log("Inside third-level nested if block");
-
-            } else {
-
-                console.log("Inside third-level nested else block");
-            }
-
-        } else {
-
-            console.log("Inside second-level nested else block");
-        }
-    }
-
-} else {
-
-    console.log("Entered outer else block");
-
-    if (true || (false && true)) {
-
-        console.log("Inside outer else -> nested if block");
-
-        if ((true && true) || false) {
-
-            console.log("Inside deeper nested if block");
-
-            if ((false && false) || (true && true)) {
-
-                console.log("Inside deepest nested if block");
-
-            } else {
-
-                console.log("Inside deepest nested else block");
-            }
-
-        } else {
-
-            console.log("Inside deeper nested else block");
-        }
-
-    } else {
-
-        console.log("Inside outer else -> nested else block");
-
-        if ((true && false) || true) {
-
-            console.log("Inside second nested if block");
-
-            if (true && (false || true)) {
-
-                console.log("Inside third nested if block");
-
-            } else {
-
-                console.log("Inside third nested else block");
-            }
-
-        } else {
-
-            console.log("Inside second nested else block");
-
-            if (false || (true && false)) {
-
-                console.log("Inside final nested if block");
-
-            } else {
-
-                console.log("Inside final nested else block");
-            }
-        }
-    }
-}
 
